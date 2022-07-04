@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://0.0.0.0:5432/timescale-postgis-test
+    username: sa
+    password: password
+    driverClassName: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
